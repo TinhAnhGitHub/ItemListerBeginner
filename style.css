@@ -1,0 +1,86 @@
+/*TODO: Global*/
+
+body{
+    font: 15px/ 1.5em Arial, Helvetica, san-serifs;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.btn{
+    border: none;
+    background-color: grey;
+    height:35px;
+    margin: 5px;
+    border-radius: 5px;
+    color:#ffff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    
+
+}
+.btn:hover {
+    background-color: blue; /* Set the background color for hover state */
+}
+
+/* TODO: Header*/
+
+header#main-header{
+    background-color:rgb(27, 180, 27);
+    color: white;
+    padding:10px;
+    min-height: 70px;
+}
+
+section#main{
+    border: 1px solid grey;
+    margin: 30px;
+}
+section h2{
+    font-size: 25px ;
+}
+section#main #main2 input[type="text"]{
+    padding:4px;
+    height:25px;
+    margin-left: 10px;
+
+    
+}
+section#main #main2 #items {
+    list-style: none;
+    padding: 0; 
+}
+section#main #main2 #items li{
+    border: 1px solid grey;
+    list-style: none;
+    padding: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+#ClickHere{
+    text-align: center;
+    width: 100%;
+}
+#ClickHere .btn{
+    background-color: aqua;
+    width: 700px;
+    margin: 0px 30px;
+    border-radius: 5px;
+    color:#ffff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+#ClickHere .btn:hover{
+    cursor:pinter;
+    background-color: blue; 
+}
+.selection{
+    margin:3px
+}
+
